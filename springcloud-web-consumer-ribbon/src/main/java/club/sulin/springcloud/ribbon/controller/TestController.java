@@ -1,6 +1,6 @@
-package club.sulin.springcloudwebconsumerribbon.controller;
+package club.sulin.springcloud.ribbon.controller;
 
-import club.sulin.springcloudwebconsumerribbon.service.TestService;
+import club.sulin.springcloud.ribbon.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,7 +13,7 @@ public class TestController {
     @Autowired
     private TestService testService;
 
-    @GetMapping("/hi")
+    @GetMapping("")
     public String getHi(){
         return testService.sayHi();
     }

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Title: MainController
  */
 @RestController("/main")
-public class MainController {
+public class Main2Controller {
     @Value("${server.port}")
     private String port;
 

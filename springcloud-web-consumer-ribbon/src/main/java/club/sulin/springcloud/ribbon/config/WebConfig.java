@@ -1,4 +1,4 @@
-package club.sulin.springcloudwebconsumerribbon.config;
+package club.sulin.springcloud.ribbon.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

@@ -1,6 +1,6 @@
-package club.sulin.springcloudwebconsumerribbon.service.impl;
+package club.sulin.springcloud.ribbon.service.impl;
 
-import club.sulin.springcloudwebconsumerribbon.service.TestService;
+import club.sulin.springcloud.ribbon.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
