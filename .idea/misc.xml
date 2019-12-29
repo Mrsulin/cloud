@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/hello-springcloud-service-provider-sulin-01/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-web-consumer-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
       </list>
     </option>
   </component>

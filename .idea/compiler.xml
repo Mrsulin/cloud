@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="zuul" />
         <module name="springcloud-web-consumer-ribbon" />
         <module name="hello-springcloud-service-provider-sulin-01" />
         <module name="hello-springcloud" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="eureka" target="1.8" />
       <module name="hello-springcloud-service-provider-sulin-02" target="1.8" />
       <module name="springcloud-web-consumer-feign" target="1.8" />
     </bytecodeTargetLevel>
@@ -26,6 +28,7 @@
       <module name="hello-springcloud-service-provider-sulin-02" options="-parameters" />
       <module name="springcloud-web-consumer-feign" options="-parameters" />
       <module name="springcloud-web-consumer-ribbon" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>
